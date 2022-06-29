@@ -12,8 +12,8 @@ const router = createRouter({
     { path: '/', redirect: '/products' },
     { path: '/products', component: AllProducts },
     { path: '/products/:pid', component: ProductDetails },
-    { path: '/products/add', component: AddProduct }
-  ]
+    { path: '/products/add', component: AddProduct },
+  ],
 });
 
 const app = createApp(App);
